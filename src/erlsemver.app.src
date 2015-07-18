@@ -2,10 +2,10 @@
  [
   {description, "Semantic versioning parsing library"},
   {vsn, "0.9.0"},
+  {modules,
+   [
+    =MODULES=
+   ]},
   {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {env, []}
+  {applications, [kernel, stdlib]}
  ]}.
